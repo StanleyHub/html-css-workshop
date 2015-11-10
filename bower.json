@@ -1,0 +1,23 @@
+{
+  "name": "html-css-workshop",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Xiang Zhang <xzhang@thoughtworks.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "globals"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
