@@ -71,9 +71,29 @@ header ul li:last-child {
     border-radius: 5px;
 }
 
+.numbers {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.numbers ul {
+    position: relative;
+    top: -55px;
+    background: #efefef;
+    padding-left: 0px;
+}
+
 .numbers ul li {
-	float: left;
-	width: 25%;
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    border-top: 1px solid #d9dada;
+    border-bottom: 1px solid #d9dada;
+    border-left: 1px solid #d9dada;
+}
+
+.numbers ul li:last-child {
+    border-right: 1px solid #d9dada;
 }
 
 section.how-it-works ul li {
