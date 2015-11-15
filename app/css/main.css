@@ -1,6 +1,7 @@
 body {
 	margin: 0;
     text-align: center;
+    background-color: #EFEFEF;
 }
 
 ul {
@@ -74,7 +75,7 @@ header ul li:last-child {
 .numbers {
     width: 80%;
     margin: 0 auto;
-} 
+}
 
 .numbers ul {
     position: relative;
@@ -96,9 +97,76 @@ header ul li:last-child {
     border-right: 1px solid #d9dada;
 }
 
-section.how-it-works ul li {
+.how-it-works ul li {
 	float: left;
 	width: 33.33%;
+}
+
+.how-it-works .number {
+    font-size: 30px;
+    color: #9C9B9A;
+    border: 1px solid #9C9B9A;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 100%;
+}
+
+.how-it-works h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+.how-it-works h2:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    margin: 3px auto;
+    background-color: #9C9B9A;
+}
+
+.how-it-works li:before {
+    content: "";
+    display: block;
+    background-color: #9C9B9A;
+    width: 92%;
+    height: 1px;
+    position: relative;
+    left: 50%;
+    margin: 0px 25px;
+    top: 45px;
+}
+
+.how-it-works h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.how-it-works p {
+    padding: 0 30px;
+}
+
+.how-it-works li:last-child:before {
+    display: none;
+}
+
+.how-it-works i {
+    font-size: 45px;
+}
+
+.how-it-works i.glyphicon-list {
+    color: #EDAB58;
+}
+
+.how-it-works i.glyphicon-pencil {
+    color: #AD9DD1;
+}
+
+.how-it-works i.glyphicon-user {
+    color: #4D9BCB;
 }
 
 section.why-choose-us .column {
