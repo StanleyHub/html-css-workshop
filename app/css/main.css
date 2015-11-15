@@ -1,5 +1,13 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../fonts/OpenSans-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
-	margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
     text-align: center;
     background-color: #EFEFEF;
 }
