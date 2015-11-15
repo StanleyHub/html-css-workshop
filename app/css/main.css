@@ -126,20 +126,6 @@ header ul li:last-child {
     border-radius: 100%;
 }
 
-.how-it-works h2 {
-    font-size: 28px;
-    text-transform: uppercase;
-}
-
-.how-it-works h2:after {
-    content: "";
-    display: block;
-    width: 40px;
-    height: 3px;
-    margin: 3px auto;
-    background-color: #9C9B9A;
-}
-
 .how-it-works li:before {
     content: "";
     display: block;
@@ -193,16 +179,60 @@ header ul li:last-child {
 
 .why-choose-us ul li aside {
 	float: left;
-	width: 10%;
+	width: 20%;
 }
 
 .why-choose-us ul li div {
 	float: left;
-	width: 90%;
+	width: 80%;
 }
 
 .why-choose-us ul li h3 {
 	margin-top: 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.why-choose-us aside i {
+    font-size: 30px;
+}
+
+.why-choose-us i.glyphicon-check {
+    color: #66BE93;
+}
+
+.why-choose-us i.glyphicon-phone {
+    color: #ECA95A;
+}
+
+.why-choose-us i.glyphicon-calendar {
+    color: #F26D7E;
+}
+
+.why-choose-us i.glyphicon-barcode {
+    color: #00B4E9;
+}
+
+.why-choose-us i.glyphicon-record {
+    color: #AF7AC4;
+}
+
+.why-choose-us i.glyphicon-screenshot {
+    color: #ED7F5B;
+}
+
+h2.section-title {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+h2.section-title:after {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 3px;
+    margin: 3px auto;
+    background-color: #9C9B9A;
 }
 
 footer nav ul {
@@ -222,4 +252,8 @@ footer .icons {
 
 footer .icons i {
 	margin-left: 10px;
+}
+
+p {
+    color: #979CA7;
 }
