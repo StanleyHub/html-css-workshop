@@ -17,6 +17,10 @@ ul {
     list-style: none;
 }
 
+.text-left {
+    text-align: left;
+}
+
 .clearfix:after {
     content: '';
     display:block;
@@ -177,27 +181,27 @@ header ul li:last-child {
     color: #4D9BCB;
 }
 
-section.why-choose-us .column {
+.why-choose-us main {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.why-choose-us .column {
 	float: left;
 	width: 50%;
 }
 
-section.why-choose-us ul li {
-	width: 400px;
-	display: inline-block;
-}
-
-section.why-choose-us ul li span {
+.why-choose-us ul li aside {
 	float: left;
 	width: 10%;
 }
 
-section.why-choose-us ul li div {
+.why-choose-us ul li div {
 	float: left;
 	width: 90%;
 }
 
-section.why-choose-us ul li h3 {
+.why-choose-us ul li h3 {
 	margin-top: 0px;
 }
 
