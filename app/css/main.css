@@ -1,12 +1,10 @@
 @font-face {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans';
     src: url(../fonts/OpenSans-Regular.ttf);
-    font-weight: normal;
-    font-style: normal;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans';
     margin: 0;
     text-align: center;
     background-color: #EFEFEF;
@@ -124,18 +122,19 @@ header ul li:last-child {
     display: block;
     margin: 15px auto;
     border-radius: 100%;
+    line-height: 30px;
 }
 
 .how-it-works li:before {
     content: "";
     display: block;
     background-color: #9C9B9A;
-    width: 92%;
+    width: 89%;
     height: 1px;
     position: relative;
     left: 50%;
     margin: 0px 25px;
-    top: 45px;
+    top: 42px;
 }
 
 .how-it-works h3 {
